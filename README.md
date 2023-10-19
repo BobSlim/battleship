@@ -1,1 +1,2 @@
-# battleship
+# Battleship
+Built to learn TDD
