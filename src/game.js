@@ -46,6 +46,7 @@ export const Renderer = (frame, doc, fnClick) => {
         const playerBoard = renderBoard(game.player, true)
         const computerBoard = renderBoard(game.computer)
         logRef = doc.createElement("div")
+        logRef.classList.add("log")
         playerBoardRef = playerBoard
         computerBoardRef = computerBoard
         frame.appendChild(playerBoard)
